@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  margin: 40px 0;
+  letter-spacing: -1.8px;
+  font-size: 2rem;
+}
+
+h1 span {
+  font-weight: 400;
+  color: #296529;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: rgb(254, 80, 0);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  padding: 10px 0;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+/* Posts.js */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.col {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.posts-container {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+
+.post {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.post-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.post-body {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 100;
+}
+.post-body:first-letter {
+  text-transform: uppercase;
+}
+
+/* PostDetails.js */
+.post-details {
+  margin-top: 20px;
+}
+
+.post-details-header {
+  margin-bottom: 20px;
+}
+
+.post-details-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-details-title::first-letter,
+.post-details-body::first-letter {
+  text-transform: uppercase;
+}
+
+.post-details-body {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.post-details-comments {
+  margin: 20px 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+}
